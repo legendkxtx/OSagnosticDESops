@@ -1,6 +1,6 @@
 # OSagnosticDESops
 
-Below are the steps I have taken to install SegeMath on my laptop
+## Below are the steps I have taken to install SegeMath on my laptop
     - 1. Install WSL and Ubuntu on [https://docs.microsoft.com/en-us/windows/wsl/install](https://docs.microsoft.com/en-us/windows/wsl/install)
     - 2. Set up my user info (username and password) in WSL
     - 3. Run update and upgrade to the packages by sudo apt update && sudo apt upgrade (error on unable to resolve domains occurred here so I resorted to passing an extra line of code: echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null (Reference: [https://github.com/MicrosoftDocs/WSL/issues/937](https://github.com/MicrosoftDocs/WSL/issues/937))
